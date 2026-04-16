@@ -46,8 +46,8 @@ importers:
         specifier: ^4.1.4
         version: 4.1.4(@types/node@25.6.0)(vite@8.0.8(@types/node@25.6.0))
       yuku-parser:
-        specifier: ^0.4.6
-        version: 0.4.6
+        specifier: file:/Users/scottweaver/Projects/yuku/npm/yuku-parser
+        version: file:../yuku/npm/yuku-parser
 
 packages:
 
@@ -844,8 +844,8 @@ packages:
     engines: {node: '>=8'}
     hasBin: true
 
-  yuku-parser@0.4.6:
-    resolution: {integrity: sha512-YJTXzBZ+nVv1s6D7vRuODCGCLmjn2h/hqgPITawgAvW/AqqoieMWLTULsXn10bK/yrv8owv6o3TqX1TONV8rGA==}
+  yuku-parser@file:../yuku/npm/yuku-parser:
+    resolution: {directory: ../yuku/npm/yuku-parser, type: directory}
 
 snapshots:
 
@@ -1468,7 +1468,7 @@ snapshots:
       siginfo: 2.0.0
       stackback: 0.0.2
 
-  yuku-parser@0.4.6:
+  yuku-parser@file:../yuku/npm/yuku-parser:
     optionalDependencies:
       '@yuku-parser/binding-darwin-arm64': 0.4.6
       '@yuku-parser/binding-darwin-x64': 0.4.6
